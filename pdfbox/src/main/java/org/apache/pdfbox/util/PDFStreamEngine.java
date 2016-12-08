@@ -492,9 +492,9 @@ public class PDFStreamEngine
             }
             else 
             {
-                // PDFBOX-373: Replace a null entry with "?" so it is
+                // PDFBOX-3621: (Patch)Replace a null entry with "" so it is
                 // not printed as "(null)"
-                c = "?";
+                c = "";
             }
             totalCharCnt++;
 
